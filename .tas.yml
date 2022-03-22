@@ -10,7 +10,6 @@ preRun:
 postMerge:
   pattern:
     - "**/*.spec.ts"
-  # strategy for trigerring builds for post-merge
 
 preMerge:
   pattern:
