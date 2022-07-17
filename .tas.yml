@@ -13,6 +13,8 @@ postMerge:
 preMerge:
   pattern:
     - "**/*.spec.ts"
+    
+parallelism: 3
 
 
 version: 1.0.11
