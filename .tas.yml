@@ -1,0 +1,20 @@
+---
+framework: mocha
+
+preRun:
+  command:
+    - npm i
+
+postMerge:
+  pattern:
+    - "**/*.spec.ts"
+  # strategy for trigerring builds for post-merge
+
+preMerge:
+  pattern:
+    - "**/*.spec.ts"
+    
+parallelism: 2
+
+
+version: 1.0.13
